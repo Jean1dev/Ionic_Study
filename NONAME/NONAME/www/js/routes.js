@@ -24,7 +24,7 @@ angular.module('app.routes', [])
     views: {
       'tab2': {
         templateUrl: 'templates/semUtildade.html',
-        controller: 'semUtildadeCtrl'
+        controller: 'CadastroCtrl'
       }
     }
   })

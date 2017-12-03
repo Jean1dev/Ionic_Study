@@ -1,3 +1,14 @@
-<ion-view title="sem utildade" id="page3">
-  <ion-content padding="true" class="has-header"></ion-content>
+<ion-view title="Cadastro" id="page3">
+    <ion-content padding="true" class="has-header">
+        <form id="cadastro-form5" class="list" ng-submit="criaObj()">
+            <label class="item item-input" id="cadastro-input2">
+                <input type="text" placeholder="Nome" ng-model="obj.nome">
+            </label>
+            <label class="item item-input" id="cadastro-input5">
+                <input type="number" placeholder="idade" ng-model="obj.idade">
+            </label>
+            <ion-toggle toggle-class="toggle-positive" ng-model="obj.publico">Publico</ion-toggle>
+            <ion-button type="submit" class="button button-balanced button-block icon-left ion-android-checkbox">Enviar</ion-button>
+        </form>
+    </ion-content>
 </ion-view>
